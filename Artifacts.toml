@@ -1,0 +1,54 @@
+[[SFML]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "44c890dfa9fb6cd9556740f8692aefe3297bd312"
+os = "windows"
+
+    [[SFML.download]]
+    sha256 = "65a1a373e5d9db3c26daf67905d01d9692c05684ae550df372c81ccfaa4336eb"
+    url = "https://github.com/JuliaBinaryWrappers/SFML_jll.jl/releases/download/SFML-v2.5.1+0/SFML.v2.5.1.i686-w64-mingw32-cxx03.tar.gz"
+[[SFML]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0d83a90190513f15626a4c31deb2a12e2abb5fa9"
+os = "windows"
+
+    [[SFML.download]]
+    sha256 = "92bbdc1624441d6918b1841a27712c9b09f5ea7fc1e5dc84c58724905111ec1e"
+    url = "https://github.com/JuliaBinaryWrappers/SFML_jll.jl/releases/download/SFML-v2.5.1+0/SFML.v2.5.1.i686-w64-mingw32-cxx11.tar.gz"
+[[SFML]]
+arch = "x86_64"
+git-tree-sha1 = "10dbcc50ca42cad232d576acbb0c81b34b2448fe"
+os = "macos"
+
+    [[SFML.download]]
+    sha256 = "e8ac7838ba476b14a1f38756687fcc21979c17143dc8d1be2e5fa819c5d97033"
+    url = "https://github.com/JuliaBinaryWrappers/SFML_jll.jl/releases/download/SFML-v2.5.1+0/SFML.v2.5.1.x86_64-apple-darwin.tar.gz"
+[[SFML]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cac19b8cc6c5771c81dfcc6318c21723b6d2d0bb"
+libc = "glibc"
+os = "linux"
+
+    [[SFML.download]]
+    sha256 = "42cc0e5632f28b92b654a02759313e6bd7138c72ae2380b62f5b12ea3194b41c"
+    url = "https://github.com/JuliaBinaryWrappers/SFML_jll.jl/releases/download/SFML-v2.5.1+0/SFML.v2.5.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[SFML]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6f45cb3104cba2797abff25977d2662a2a34828f"
+os = "windows"
+
+    [[SFML.download]]
+    sha256 = "def9a04d522ad84828cbec892c4dc17a832d4c7593cbcd84b5ff396fb7dec018"
+    url = "https://github.com/JuliaBinaryWrappers/SFML_jll.jl/releases/download/SFML-v2.5.1+0/SFML.v2.5.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[SFML]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ebdc34c74ac799b2dda4a841d4fe222da846e1f1"
+os = "windows"
+
+    [[SFML.download]]
+    sha256 = "0a94c36d87a641976eb441c19a930d9ce6e148d9ffb98f5069f505eada896279"
+    url = "https://github.com/JuliaBinaryWrappers/SFML_jll.jl/releases/download/SFML-v2.5.1+0/SFML.v2.5.1.x86_64-w64-mingw32-cxx11.tar.gz"
