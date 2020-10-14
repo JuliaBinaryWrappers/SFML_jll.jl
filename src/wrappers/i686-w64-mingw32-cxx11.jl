@@ -19,31 +19,31 @@ function __init__()
     JLLWrappers.@generate_init_header(Libglvnd_jll, Ogg_jll, FLAC_jll, FreeType2_jll, libvorbis_jll, Xorg_libXrandr_jll, Xorg_libX11_jll, OpenAL_jll)
     JLLWrappers.@init_library_product(
         libsfml_audio,
-        "bin/sfml-audio-2.dll",
+        "bin\\sfml-audio-2.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libsfml_graphics,
-        "bin/sfml-graphics-2.dll",
+        "bin\\sfml-graphics-2.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libsfml_network,
-        "bin/sfml-network-2.dll",
+        "bin\\sfml-network-2.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libsfml_system,
-        "bin/sfml-system-2.dll",
+        "bin\\sfml-system-2.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libsfml_window,
-        "bin/sfml-window-2.dll",
+        "bin\\sfml-window-2.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
