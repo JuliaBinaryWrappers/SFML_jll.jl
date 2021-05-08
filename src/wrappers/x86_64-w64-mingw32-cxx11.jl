@@ -9,6 +9,7 @@ using libvorbis_jll
 using Xorg_libXrandr_jll
 using Xorg_libX11_jll
 using OpenAL_jll
+using eudev_jll
 JLLWrappers.@generate_wrapper_header("SFML")
 JLLWrappers.@declare_library_product(libsfml_audio, "sfml-audio-2.dll")
 JLLWrappers.@declare_library_product(libsfml_graphics, "sfml-graphics-2.dll")
@@ -16,7 +17,7 @@ JLLWrappers.@declare_library_product(libsfml_network, "sfml-network-2.dll")
 JLLWrappers.@declare_library_product(libsfml_system, "sfml-system-2.dll")
 JLLWrappers.@declare_library_product(libsfml_window, "sfml-window-2.dll")
 function __init__()
-    JLLWrappers.@generate_init_header(Libglvnd_jll, Ogg_jll, FLAC_jll, FreeType2_jll, libvorbis_jll, Xorg_libXrandr_jll, Xorg_libX11_jll, OpenAL_jll)
+    JLLWrappers.@generate_init_header(Libglvnd_jll, Ogg_jll, FLAC_jll, FreeType2_jll, libvorbis_jll, Xorg_libXrandr_jll, Xorg_libX11_jll, OpenAL_jll, eudev_jll)
     JLLWrappers.@init_library_product(
         libsfml_audio,
         "bin\\sfml-audio-2.dll",
